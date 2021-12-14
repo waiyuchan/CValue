@@ -20,7 +20,7 @@ CValue提供一下功能：
 
 -----
 
-具体的操作视操作者当前操作系统下的真实情况而定，如果系统默认的python版本就是`python3`可以直接按下面的命令操作，如果系统有多个版本可以直接见下面命令里的`python`改为`python3`。
+具体的操作视操作者当前操作系统下的真实情况而定，如果系统默认的python版本就是`python3`可以直接按下面的命令操作，如果系统有多个版本可以直接见下面命令里的`python`以及`pip`改为`python3`和`pip3`。
 
 ```shell
 pip install virtualenv
