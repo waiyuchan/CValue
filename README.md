@@ -1,6 +1,7 @@
 # C-Value: A method for reasonable measurement of nested terms
 
-
+![](https://img.shields.io/badge/language-python-blue.svg)
+![](https://img.shields.io/badge/license-Apache_2.0-green.svg)
 
 -----
 
