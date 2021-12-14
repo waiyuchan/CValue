@@ -1,7 +1,5 @@
 # C-Value: A method for reasonable measurement of nested terms
 
------
-
 术语自动抽取方法C-Value方法的Python实现版本，支持CLI方式对语料文本直接进行术语抽取。分词技术采用工业界和学术界高度认可的`HanLP`自然语言处理工具包。
 
 CValue提供一下功能：
