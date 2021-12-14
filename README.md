@@ -1,13 +1,13 @@
-# C-Value: A method for reasonable measurement of nested terms
+# C-value: A method for reasonable measurement of nested terms
 
 ![](https://img.shields.io/badge/language-python-blue.svg)
 ![](https://img.shields.io/badge/license-Apache_2.0-green.svg)
 
 -----
 
-一种用于合理度量嵌套术语的方法—C-value方法的实现项目。其基本思想是，首先利用词法规则生成术语候选词集合，然后使用统计信息对集合中的术语进行过滤。 C-Value术语自动抽取方法（Python版本）支持CLI方式对语料文本直接进行术语抽取。其中，分词技术采用工业界和学术界高度认可的`HanLP`自然语言处理工具包。
+一种用于合理度量嵌套术语的方法—C-value方法的实现项目。其基本思想是，首先利用词法规则生成术语候选词集合，然后使用统计信息对集合中的术语进行过滤。C-value术语自动抽取方法（Python版本）支持CLI方式对语料文本直接进行术语抽取。其中，分词技术采用工业界和学术界高度认可的`HanLP`自然语言处理工具包。
 
-CValue提供以下功能：
+C-value提供以下功能：
 
 * 支持多种语料输入，包括
     * CSV、TXT
