@@ -71,7 +71,7 @@ class CValue(object):
             cvalue = math.log2(length) * frequency
             return cvalue
         else:
-            cvalue = math.log2(length) * (length - 1 / nested_size) * nested_frequency
+            cvalue = math.log2(length) * (frequency - 1 / nested_size) * nested_frequency
             return cvalue
 
     def corpus_input(self):
