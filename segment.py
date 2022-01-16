@@ -2,6 +2,11 @@ from pyhanlp import *
 
 
 class Segment:
+    def is_all_chinese(self, word):
+        for i in word:
+            if 'a' <= i <= 'z' or 'A' <= i <= 'Z':
+                return False
+        return True
 
     @classmethod
     def segment(cls, corpus):
@@ -16,6 +21,6 @@ class Segment:
                          "nn", "nnd", "nnt", "nr", "nr1", "nr2", "nrf", "nrj", "ns", "nsf", "nt", "ntc", "ntcb", "ntcf",
                          "ntch", "nth", "nto", "nts", "ntu", "nx", "nz", "nz", "vn"]
         for item in HanLP.segment(corpus):
-            if str(item.nature) in nature_filter:
+            if str(item.nature) in nature_filter and len(item.word) > 1 and cls().is_all_chinese(item.word):
                 words.append(item.word)
         return words
